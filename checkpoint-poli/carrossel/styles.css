@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/* -----------------------VAR DE CORES (AINDA A DEFINIR)---------------------------------- */
+:root{
+    --button:#fff;
+    --buton-hover:#fff;
+}
+/* GERAIS */
+body{
+    font-family:'Roboto', sans-serif ;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.row{
+    margin: 10px;
+}
+.container{
+    padding: 70px 0;
+}
+
+ /* ------------------------CORES DOS OPTIONS MENUS ---------------------------*/
+.color-menu {
+    color: rgba(0, 0, 0, 0.759);
+    font-size: 18px;
+   
+}
+
+/* ---------------MAIN-------------- */
+
+
+.main-content{
+    
+}
+
+.main-content .welcome {
+    background-color: #202020;
+    min-height: calc(70px + 88vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+  }
+
+
+.main-content .welcome h1{
+    color: #fea83e;
+    font-size: 60px;
+        
+}
+
+.explorer:hover {
+    
+    background-color: rgba(255, 167, 15, 0.966);
+    
+    animation-name: animation-explorer-hover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transform: scale(1.02);
+         
+}
+
+.explorer{
+    background-color: #ef8514cb;
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -1em 0.4em 3em 0em rgba(54, 53, 53, 0.475);
+    transition: 1s;
+    
+}
